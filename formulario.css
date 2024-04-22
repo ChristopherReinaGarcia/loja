@@ -1,0 +1,11 @@
+.Login{
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.butao{
+    right: 10px;
+}
