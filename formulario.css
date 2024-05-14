@@ -1,11 +1,7 @@
-.Login{
-    border: 2px red solid;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-
-.butao{
-    right: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
