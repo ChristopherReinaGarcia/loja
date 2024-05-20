@@ -35,6 +35,10 @@ footer{
     height: 155px;
     width: 300px;
 }
+.carrinho{
+    position: absolute;
+    right: 5px;
+}
 .hh{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
