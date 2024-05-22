@@ -35,9 +35,13 @@ footer{
     grid-area: roda;
     background-color: #000000;
 }
+.iphone{
+    height: 200px;
+    width: 100px;
+}
 
 .nokia{
-    height: 155px;
+    height: 200px;
     width: 300px;
 }
 .carrinho{
@@ -57,7 +61,7 @@ footer{
     flex-direction: row;
 }
 .card{
-    box-shadow: 4px 4px #202020;
+    box-shadow: 3px 3px #000000;
     display: flex;
     flex-direction: column;
     justify-content: center;
