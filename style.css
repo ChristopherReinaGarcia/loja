@@ -32,7 +32,9 @@ header img{
 aside{
     grid-area: asid;
     background-color: #0597F2;
-    border-radius: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
     
 }
 main{
@@ -213,7 +215,74 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 32px;
     }
+    nav.menu-lateral{
+        display: none;
+    }
 }
-@media screen and (max-width: 426px){
-    #foote
+
+
+nav.menu-lateral{
+    width: 20px;
+    height: 100%;
+    background-color: #0597F2;
+    padding: 40px 0px 40px 1%;
+    box-shadow: 3px 0 0 #04D9D9 ;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    position: absolute;
+    left: 4px;
+
+}
+.btn-expandir i{
+    color: white;
+    font-size: 24px;
+    /*Indicar q ele é clickavel*/
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background: #04D9D9;
+
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 0;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 0px;
+}
+
+ul li.item-menu a .icon i{
+    font-size: 30px;     
+    margin-left: 1px;
+    position: absolute;
+    left: 0px;
 }
