@@ -11,28 +11,64 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-            <div class="logo">
-                <img src="imagens/menu.png" width="50px" height="50px">
-            </div>
-            <nav class="men">
-                <a href="index.html"><img src="imagens/search.png" width="50px" height="50px" alt="car"></a>
-            </nav>
-        </div>
+        <span>Carrinho</span>
     </header>
     <main>
-        <h1 class="hh">Carrinho</h1>
-        <h3 class="hhh">Produtos</h3>
-
-
-        <img src="imagens/iphone.png" width="81px" height="154"px class="imagem">
-        <div class="span">
-            <span>R$100,00</span>
-        </div>
-
-        <div class="botao">
-            <a href="">COMPRAR</a>
-        </div>
+        <div class="title">Seu Carrinho</div>
+        <div class="content">
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <img src="imagens/iphone.png" width="100" height="150" alt="nokia">
+                                    <div class="info">
+                                        <div class="nome">Iphone</div>
+                                        <div class="cor">8</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 100,00</td>
+                            <td>
+                                <div class="quantidade">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                            </td>
+                            <td>R$ 100,00</td>
+                            <td>
+                                <button class="delete">X</button>
+                            </td>
+                        </tr>   
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <header class="cabe">Resumo da Compra</header>
+                    <div class="info">
+                        <div><span>Sub-total</span><span>R$ 100,00</span></div>
+                        <div><span>Frete</span><span>Grátis</span></div>
+                    </div>
+                    <footer>
+                        <span>Total</span>
+                        <span>R$ 100,00</span>
+                    </footer>
+                </div>
+                <button>Finalizar Compra</button>
+            </aside>
+        </div> 
     </main>
 </body>
 </html>
