@@ -31,12 +31,19 @@ header img{
 }
 aside{
     grid-area: asid;
-    background-color: #0597F2;
-    border-radius: 15px;
+    background-color: #0597F2;      
+}
+
+.menu{
     text-decoration: none;
     color: white;
-    
 }
+
+.menu:hover{
+    opacity: 0.8;
+}
+
+
 main{
     grid-area: prin;
     background-color: white;
@@ -200,6 +207,7 @@ footer{
     text-decoration: none;
     background-color: #0597F2;
     color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 .card a:hover{
     background-color: #04D9D9;
@@ -226,7 +234,6 @@ nav.menu-lateral{
     height: 100%;
     background-color: #0597F2;
     padding: 40px 0px 40px 1%;
-    box-shadow: 3px 0 0 #04D9D9 ;
 
     position: fixed;
     top: 0;
@@ -242,7 +249,7 @@ nav.menu-lateral:hover{
 .btn-expandir{
     width: 100%;
     position: absolute;
-    left: 4px;
+    left: 3px;
 
 }
 .btn-expandir i{
