@@ -40,6 +40,7 @@ main aside{
 
 table{
     width: 100%;
+    /*border-collapse determina se tem espaçamento entre as bordas da tabela*/
     border-collapse: collapse;
 }
 

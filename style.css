@@ -34,11 +34,12 @@ aside{
     background-color: #0597F2;      
 }
 
+/*Tirar a decoraçao do link dos elementos do aside*/
 .menu{
     text-decoration: none;
     color: white;
 }
-
+/*quando clicka a opacidade diminui*/
 .menu:hover{
     opacity: 0.8;
 }
@@ -134,7 +135,7 @@ footer{
     border-radius: 4px;
 }
 #input-group input{
-    /*all unset tira a custominazçao padrão do input*/
+    /*all unset tira a custominazaçao padrão do input*/
     all: unset;
     padding: 12px;
     width: 100%;
@@ -238,6 +239,7 @@ nav.menu-lateral{
     position: fixed;
     top: 0;
     left: 0;
+    /*o overflow hiddden é para quando queremos esconder a parte de um elemento para que ele não passe do tamanho determinado*/
     overflow: hidden;
     transition: .2s;
 }
